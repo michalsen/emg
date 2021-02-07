@@ -22,11 +22,11 @@ const BragPage = () => (
           <li><a href="mailto:eric.michalsen@gmail.com">Email</a></li>
           <li><a href="https://www.linkedin.com/in/michalsen/" target="_blank">Linkedin</a></li>
           <li><a href="https://github.com/michalsen" target="_blank">Github</a></li>
-          <li><a href="https://twitter.com/michalsen/" target="_blank">Twitter</a></li>
+          
       </ul>
       <hr></hr>
       <ul>
-          <li>Drupal 7/8 ... and soon 9!</li>
+          <li>Drupal</li>
           <li>Wordpress</li>
           <li>git/CI/DTAP environments</li>
       </ul>

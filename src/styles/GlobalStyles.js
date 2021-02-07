@@ -16,6 +16,10 @@ const GlobalStyles = createGlobalStyle`
     background-repeat: no-repeat;
     background-color: #F8D948;
     background-blend-mode: multiply;
+    /* background-blend-mode: normal; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: difference;    */
+    /* background-blend-mode: light;  */
     font-size: 10px;
     opacity: .95;
 

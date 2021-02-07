@@ -1,6 +1,6 @@
 import * as React from "react"
 import me from "../assets/images/me.jpg";
-
+import { withBreakpointsCustom } from 'react-responsive-breakpoints';
 
 // styles
 const pageStyles = {
@@ -61,14 +61,12 @@ const docLink = {
 }
 
 
+
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      
-       <div class="pattern-dots-sm slategray h-5"></div>
 
-       {/* <img src={me} alt="Eric Michalsen" /> */}
     </main>
   )
 }
