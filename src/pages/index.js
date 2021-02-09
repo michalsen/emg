@@ -60,10 +60,25 @@ const docLink = {
   color: "#8954A8",
 }
 
+// const MyComponent = () => {
+//   const breakpoints = useBreakpoint();
+
+//   return (
+//     <main style={pageStyles}>
+//           {/* Anything */}
+
+//           {/* <MobileOnlyComponent /> will only be displayed if max-width <= 320px  */}
+//           {breakpoints.xs ? <MobileOnlyComponent /> : null}
+//     </main>
+//   );
+// };
+
+// export default MyComponent;
 
 
 // markup
 const IndexPage = () => {
+  // breakpoints = useBreakpoint();
   return (
     <main style={pageStyles}>
 

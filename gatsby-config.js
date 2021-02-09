@@ -7,5 +7,5 @@
 //    },
 //   ]
 module.exports = {
-
+    plugins: ['gatsby-plugin-breakpoints'],
 }
