@@ -31,7 +31,7 @@ const ContentStyles = styled.div`
     clip-path: polygon(0  0, 0 100%, 150% 0);
   }
   @media (min-width: 801px) {
-    clip-path: polygon(0 0, 0 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 115% 0);
   }
 
 `;
