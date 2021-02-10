@@ -31,13 +31,20 @@ const NavStyles = styled.nav`
   }
 
   a {
-    font-size: 3rem;
+    @media (max-width: 800px) {
+      font-size: 2rem;
+    }
+    @media (min-width: 801px) {
+      font-size: 3rem;
+    } 
+    
     text-decoration: none;
     &:hover {
       color: var(--red);
     }
   }
-`;
+
+ `;
 
 export default function Nav() {
   return (
