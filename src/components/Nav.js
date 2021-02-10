@@ -44,7 +44,7 @@ export default function Nav() {
     <NavStyles>
       <ul>
         <li>
-          <Link to="/">Home a1</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
