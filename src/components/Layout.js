@@ -28,7 +28,7 @@ const ContentStyles = styled.div`
   padding: 2rem;
   /* https://bennettfeely.com/clippy/ */
   @media (max-width: 800px) {
-    clip-path: polygon(0 0, 0 100%, 120% 0);
+    clip-path: polygon(0  0, 0 110%, 120% 0);
   }
   @media (min-width: 801px) {
     clip-path: polygon(0 0, 0 100%, 99% 0);
