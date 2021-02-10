@@ -6,7 +6,7 @@ const BragPage = () => (
      <div class="main_top"></div>
      <div id="about_text">
       <center>
-      <h2>PHP/MySQL/JS/Drupal/Wordpress</h2>
+      <h3>PHP/MySQL/JS/Drupal/Wordpress</h3>
       <h3>Focusing on solutions for unique requirements</h3>
       <img src={aquia} alt="Aquia Certified Backend Developer" />
       </center>

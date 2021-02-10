@@ -42,7 +42,7 @@ const NavStyles = styled.nav`
 export default function Nav() {
   return (
     <NavStyles>
-      <h2>
+      <h3>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -57,7 +57,7 @@ export default function Nav() {
             <Link to="/horological">Horological</Link>
           </li>
         </ul>
-      </h2>
+      </h3>
     </NavStyles>
   );
 }
