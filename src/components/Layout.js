@@ -43,6 +43,7 @@ export default function Layout({ children }) {
       <Typography />
       {/* <SiteBorderStyles> */}
         <ContentStyles>
+          <div class="sorry center">currently working on mobile version ... sorry.</div>
           <Nav />
           {children}
           {/* <Footer /> */}

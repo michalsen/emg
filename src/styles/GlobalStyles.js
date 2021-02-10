@@ -109,6 +109,15 @@ const GlobalStyles = createGlobalStyle`
     list-style: square;
     /* grid-template-columns: 1fr; */
   }
+
+  .sorry {
+    font-size: 1.5rem;
+    color: green;
+    margin-top: -30px;
+    @media (min-width: 800px) {
+      display: none;
+    }
+  }
 `;
 
 export default GlobalStyles;
