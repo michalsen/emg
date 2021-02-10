@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     background-image: url(${desk});
-    background-size: 100%;
+    background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #F8D948;
