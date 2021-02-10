@@ -22,7 +22,13 @@ const GlobalStyles = createGlobalStyle`
     /* background-blend-mode: hard-light; */
     /* background-blend-mode: difference;    */
     /* background-blend-mode: light;  */
-    font-size: 10px;
+    
+      @media (max-width: 800px) {
+        font-size: 8px;
+      }
+      @media (min-width: 800px) {
+        font-size: 10px;
+      }
     opacity: .95;
 
   }
