@@ -42,20 +42,22 @@ const NavStyles = styled.nav`
 export default function Nav() {
   return (
     <NavStyles>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/code">Code</Link>
-        </li>
-        <li>
-          <Link to="/horological">Horological</Link>
-        </li>
-      </ul>
+      <h2>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/code">Code</Link>
+          </li>
+          <li>
+            <Link to="/horological">Horological</Link>
+          </li>
+        </ul>
+      </h2>
     </NavStyles>
   );
 }
