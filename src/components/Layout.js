@@ -28,7 +28,7 @@ const ContentStyles = styled.div`
   padding: 4rem;
   /* https://bennettfeely.com/clippy/ */
   @media (max-width: 800px) {
-    clip-path: polygon(0  0, 0 100%, 150% 0);
+    clip-path: polygon(0  0, 0 65%, 150% 0);
   }
   @media (min-width: 801px) {
     clip-path: polygon(0 0, 0 100%, 115% 0);
@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         <ContentStyles>
           <Nav />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </ContentStyles>
       {/* </SiteBorderStyles> */}
     </>

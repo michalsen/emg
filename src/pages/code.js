@@ -29,7 +29,9 @@ const BragPage = () => (
           <li>Drupal</li>
           <li>Wordpress</li>
           <li>git/CI/DTAP environments</li>
+          <li>This site made in GatsbyJS</li>
       </ul>
+      
     </div>
     <div class="main_bottom"></div>
   </main>
