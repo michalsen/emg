@@ -28,11 +28,13 @@ const SiteBorderStyles = styled.div`
 const ContentStyles = styled.div`
   background: white;
   padding: 4rem;
-  padding-bottom: 200rem;
+   
+
+  padding-bottom: ${({ path }) => (path === '/' ? '.1rem' : ' 200rem')};
+
   /* https://bennettfeely.com/clippy/ */
   @media (max-width: 800px) {
         /* clip-path: polygon(0  0, 0 50%, 150% 0); */
-
     clip-path: ${({ path }) => (path === '/' ? 'polygon(0  0, 0 150%, 200% 0)' : 'polygon(0  0, 0 50%, 150% 0)')};
 
   }
