@@ -28,6 +28,7 @@ const SiteBorderStyles = styled.div`
 const ContentStyles = styled.div`
   background: white;
   padding: 4rem;
+  padding-bottom: 200rem;
   /* https://bennettfeely.com/clippy/ */
   @media (max-width: 800px) {
         /* clip-path: polygon(0  0, 0 50%, 150% 0); */
