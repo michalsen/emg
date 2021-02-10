@@ -14,9 +14,15 @@ const GlobalStyles = createGlobalStyle`
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-color: #F8D948;
     background-blend-mode: multiply;
     background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        min-height: 725px;
     background-position-y: 70px;
     /* background-blend-mode: normal; */
     /* background-blend-mode: hard-light; */
