@@ -30,7 +30,7 @@ const ContentStyles = styled.div`
   padding: 4rem;
    
 
-  padding-bottom: ${({ path }) => (path === '/' ? '.1rem' : ' 200rem')};
+  padding-bottom: ${({ path }) => (path === '/' ? '200rem' : ' .1rem')};
 
   /* https://bennettfeely.com/clippy/ */
   @media (max-width: 800px) {
