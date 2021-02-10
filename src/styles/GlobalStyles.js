@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
     background-color: #F8D948;
     background-blend-mode: multiply;
     background-position: center;
-    background-position-y: 50px;
+    background-position-y: 70px;
     /* background-blend-mode: normal; */
     /* background-blend-mode: hard-light; */
     /* background-blend-mode: difference;    */
