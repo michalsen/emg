@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import font from '../assets/fonts/LandasansMedium.otf';
+import font from '../assets/fonts/GaramondPremrPro-LtDisp.otf';
 
 const Typography = createGlobalStyle`
   @font-face {
