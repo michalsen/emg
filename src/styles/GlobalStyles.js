@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
     
 
       @media (max-width: 800px) {
-        font-size: 8px;
+        font-size: 9px;
       }
       @media (min-width: 800px) {
         font-size: 10px;
@@ -39,9 +39,9 @@ const GlobalStyles = createGlobalStyle`
 
   }
 
-  body {
+  /* body {
     font-size: 2rem;
-  }
+  } */
 
   fieldset {
     border-color: rgba(0,0,0,0.1);
@@ -123,7 +123,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .sorry {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: green;
     margin-top: -30px;
     @media (min-width: 800px) {

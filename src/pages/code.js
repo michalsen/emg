@@ -16,6 +16,7 @@ const BragPage = () => (
           <li>25 years in the IT business</li>
           <li>Backend development specializing in working with clients custom data and mapping to API's.</li>
           <li>Problem solving using industry standards</li>
+          <li>Core founder and current presenter at large for the Fox Valley Computing Professionals.</li>
       </ul>
       <hr></hr>
       <ul>
