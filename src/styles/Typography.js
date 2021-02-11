@@ -2,14 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 
 import font from '../assets/fonts/GaramondPremrPro-LtDisp.otf';
 import bold_font from '../assets/fonts/GaramondPremrPro-Subh.otf';
+import trinite_font from '../assets/fonts/TriniteNo3-RomanCondTab.otf';
 
 const Typography = createGlobalStyle`
   @font-face {
-    font-family: Garamond;
-    src: url(${font});
+    font-family: Trinite;
+    src: url(${trinite_font});
   }
   html {
-    font-family: Garamond, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Trinite, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--black);
   }
   p, li {

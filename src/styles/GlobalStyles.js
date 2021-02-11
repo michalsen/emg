@@ -39,9 +39,9 @@ const GlobalStyles = createGlobalStyle`
 
   }
 
-  /* body {
+  body {
     font-size: 2rem;
-  } */
+  }
 
   fieldset {
     border-color: rgba(0,0,0,0.1);
