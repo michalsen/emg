@@ -16,15 +16,19 @@ const GlobalStyles = createGlobalStyle`
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-color: #F8D948;
-    background-blend-mode: multiply;
     background-position: center;
         min-height: 900px;
     background-position-y: 70px;
+
+
+
+    background-blend-mode: multiply;
     /* background-blend-mode: normal; */
     /* background-blend-mode: hard-light; */
     /* background-blend-mode: difference;    */
     /* background-blend-mode: light;  */
     
+
       @media (max-width: 800px) {
         font-size: 8px;
       }
