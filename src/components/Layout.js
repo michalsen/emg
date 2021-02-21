@@ -36,7 +36,7 @@ const ContentStyles = styled.div`
 
   @media (max-width: 800px) {
         /* clip-path: polygon(0  0, 0 50%, 150% 0); */
-    clip-path: ${({ path }) => (path === '/' ? 'polygon(0  0, 0 150%, 200% 0)' : 'polygon(0  0, 0 50%, 150% 0)')};
+    clip-path: ${({ path }) => (path === '/' ? 'polygon(0  0, 0 50%, 200% 0)' : 'polygon(0  0, 0 100%, 150% 0)')};
 
   }
   @media (min-width: 801px) {
@@ -52,7 +52,7 @@ export default function Layout({ children }) {
       <Typography />
       {/* <SiteBorderStyles> */}
         <ContentStyles>
-          <div class="sorry center">currently working on mobile version... sorry.</div>
+
           <Nav />
           {children}
           {/* <Footer /> */}
