@@ -27,18 +27,16 @@ const SiteBorderStyles = styled.div`
 
 const ContentStyles = styled.div`
   background: white;
-  padding: 4rem;
+  padding: 1rem;
 
-   
   /* https://bennettfeely.com/clippy/ */
   padding-bottom: ${({ path }) => (path === '/' ? '200rem' : ' .1rem')};
-   
 
   @media (max-width: 800px) {
         /* clip-path: polygon(0  0, 0 50%, 150% 0); */
-    clip-path: ${({ path }) => (path === '/' ? 'polygon(0  0, 0 50%, 200% 0)' : 'polygon(0  0, 0 100%, 150% 0)')};
-
+    clip-path: ${({ path }) => (path === '/' ? 'polygon(0  0, 0 150%, 200% 0)' : 'polygon(0  0, 0 50%, 150% 0)')};
   }
+
   @media (min-width: 801px) {
     clip-path: polygon(0 0, 0 100%, 115% 0);
   }
@@ -52,7 +50,6 @@ export default function Layout({ children }) {
       <Typography />
       {/* <SiteBorderStyles> */}
         <ContentStyles>
-
           <Nav />
           {children}
           {/* <Footer /> */}
