@@ -7,7 +7,7 @@ import me from "../assets/images/me_lathebw.jpg";
 const HorologicalPage = () => (
   <main>
     <div class="main_top"></div>
-    <div id="horological_textt">
+    <div id="page_text">
     <ul>
       <li>You can follow progress on various projects <a href="https://michalsen.wordpress.com/" target="_blank">here</a></li>
       <li>Secretary, NAWCC Chapter 35</li>

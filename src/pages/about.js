@@ -7,7 +7,7 @@ import { graphql } from "gatsby";
 const AboutPage = () => (
   <main>
     <div class="main_top"></div>
-    <div id="about_text">
+    <div id="page_text">
         A recent arrival to Kentucky, I spend my days in Drupal and Wordpress,
         and my evenings, weekends, and offdays with the family ... and in my shop.
  

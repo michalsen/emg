@@ -4,7 +4,7 @@ import aquia from "../assets/images/aquia_certified_developer.png";
 const BragPage = () => (
   <main>
      <div class="main_top"></div>
-     <div id="about_text">
+     <div id="page_text">
       <center>
       <h3>PHP/MySQL/JS/Drupal/Wordpress</h3>
       <h3>Focusing on solutions for unique requirements</h3>
